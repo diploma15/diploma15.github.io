@@ -1699,66 +1699,16 @@ body {
     left: -1rem;
   }
 }
-.cid-s3Yvo8l4Qt {
-  background-image: url("../../../assets/images/mbr-1620x1080.jpg");
+.cid-s4041A18Rb {
+  background-image: url("../../../assets/images/background80.jpg");
 }
-.cid-s3Yvo8l4Qt .mbr-section-title,
-.cid-s3Yvo8l4Qt .mbr-section-subtitle {
-  color: #000000;
+.cid-s4041A18Rb .mbr-overlay {
+  background: #ffa0a4;
+  background: linear-gradient(45deg, #ffa0a4, #000000);
+  background: radial-gradient(#ffa0a4, #000000);
 }
-.cid-s3Yvo8l4Qt .mbr-section-text {
-  color: #232323;
-}
-.cid-s3Yvo8l4Qt .mbr-text,
-.cid-s3Yvo8l4Qt .typed-text,
-.cid-s3Yvo8l4Qt .mbr-section-text {
-  letter-spacing: 0.03rem;
-}
-.cid-s3Yvo8l4Qt .btn {
-  margin-left: 4px !important;
-}
-.cid-s3Yvo8l4Qt .animated-element {
-  color: #fe525b;
-}
-.cid-s3Yvo8l4Qt .typed-cursor {
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
-  color: #fe525b;
-}
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.cid-s4041A18Rb .mbr-section-title {
+  margin: 0;
 }
 .cid-s3YzYntpvs {
   padding-top: 15px;
@@ -2613,7 +2563,7 @@ body {
 .cid-s3Ywnf8mAp {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/background811.jpg");
+  background-image: url("../../../assets/images/background80.jpg");
 }
 .cid-s3Ywnf8mAp .container-fluid {
   padding: 0 3rem;
@@ -2675,7 +2625,7 @@ body {
 .cid-s3Yz67c2dH {
   padding-top: 150px;
   padding-bottom: 150px;
-  background-image: url("../../../assets/images/background811.jpg");
+  background-image: url("../../../assets/images/background80.jpg");
 }
 .cid-s3Yz67c2dH .card-wrapper {
   z-index: 3;
@@ -3055,8 +3005,8 @@ body {
   }
 }
 .cid-s3YBOZ8mfO {
-  padding-top: 15px;
-  padding-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
 .cid-s3YBOZ8mfO .media-container-row {
