@@ -1,11 +1,4 @@
-.engine {
-	position: absolute;
-	text-indent: -2400px;
-	text-align: center;
-	padding: 0;
-	top: 0;
-	left: -2400px;
-}/*!
+/*!
  * Mobirise v4 theme (https://mobirise.com/)
  * Copyright 2017 Mobirise
  */
@@ -197,7 +190,6 @@ figure[mbr-media-size] {
 
 .card-img {
   text-align: center;
-  -webkit-flex-shrink: 0;
   flex-shrink: 0; }
 
 .media {
@@ -260,13 +252,13 @@ nav .mbr-section-btn {
   min-height: 100vh; }
 
 .mbr-fullscreen {
+  display: flex;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
-  display: flex;
-  -webkit-align-items: center;
   align-items: center;
+  -webkit-align-items: center;
   min-height: 100vh;
   padding-top: 3rem;
   padding-bottom: 3rem; }
@@ -277,7 +269,7 @@ nav .mbr-section-btn {
   position: relative; }
   .map iframe {
     width: 100%;
-    min-height: 100%; }
+    height: 100%; }
 
 /* Form */
 .form-asterisk {
@@ -295,8 +287,8 @@ nav .mbr-section-btn {
   z-index: 5000;
   color: #ffffff;
   font-size: 32px;
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg); }
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg); }
 
 .mbr-arrow-up a {
   background: rgba(0, 0, 0, 0.2);
@@ -359,8 +351,8 @@ nav .mbr-section-btn {
 
 @keyframes arrowdown {
   0% {
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px); }
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px); }
   50% {
     transform: translateY(-5px);
     -webkit-transform: translateY(-5px); }
@@ -372,17 +364,17 @@ nav .mbr-section-btn {
     transform: translateY(0px);
     -webkit-transform: translateY(0px); }
   50% {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px); }
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px); }
   100% {
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px); } }
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px); } }
 @media (max-width: 500px) {
   .mbr-arrow-up {
     left: 50%;
     right: auto;
-    -webkit-transform: translateX(-50%) rotate(180deg);
-    transform: translateX(-50%) rotate(180deg); } }
+    transform: translateX(-50%) rotate(180deg);
+    -webkit-transform: translateX(-50%) rotate(180deg); } }
 /*Gradients animation*/
 @keyframes gradient-animation {
   from {
@@ -400,22 +392,18 @@ nav .mbr-section-btn {
     animation-timing-function: ease-in-out; } }
 .bg-gradient {
   background-size: 200% 200%;
-  -webkit-animation: gradient-animation 5s infinite alternate;
-  animation: gradient-animation 5s infinite alternate; }
+  animation: gradient-animation 5s infinite alternate;
+  -webkit-animation: gradient-animation 5s infinite alternate; }
 
 .menu .navbar-brand {
   display: -webkit-flex; }
   .menu .navbar-brand span {
-    display: -webkit-flex;
-    display: flex; }
+    display: flex;
+    display: -webkit-flex; }
   .menu .navbar-brand .navbar-caption-wrap {
     display: -webkit-flex; }
   .menu .navbar-brand .navbar-logo img {
     display: -webkit-flex; }
-@media (max-width: 767px) {
-  .menu .navbar-collapse {
-    max-height: 60vh;
-    overflow-y: auto; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .menu .navbar-toggleable-sm .navbar-nav {
     display: -webkit-box;
@@ -427,49 +415,12 @@ nav .mbr-section-btn {
   .menu .navbar-toggleable-sm .navbar-collapse {
     display: -webkit-flex !important; } }
 
-.navbar {
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
-  -webkit-align-items: center;
-  -webkit-justify-content: space-between; }
-
-.navbar-collapse {
-  -webkit-flex-basis: 100%;
-  -webkit-flex-grow: 1;
-  -webkit-align-items: center; }
-
-.nav-dropdown .link {
-  padding: .667em 1.667em !important;
-  margin: 0 !important; }
-
-.row {
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap; }
-
-.justify-content-center {
-  -webkit-justify-content: center; }
-
-.card-wrapper {
-  -webkit-flex: 1 1 auto;
-  flex: 1 1 auto; }
-
-.carousel-control {
-  display: -webkit-flex;
-  -webkit-align-items: center;
-  -webkit-justify-content: center; }
-
-.carousel-control-prev, .carousel-control-next {
-  display: -webkit-flex;
-  -webkit-align-items: center;
-  -webkit-justify-content: center; }
-
-@media (max-width: 576px) {
-  .col-xs-3 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-    padding-left: 0;
-    padding-right: 0; } }
-
 /*# sourceMappingURL=style.css.map */
+.engine {
+	position: absolute;
+	text-indent: -2400px;
+	text-align: center;
+	padding: 0;
+	top: 0;
+	left: -2400px;
+}
